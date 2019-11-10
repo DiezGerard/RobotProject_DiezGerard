@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191110 11:43:58.210" generator="Robot 3.1.2 (Python 2.7.17 on win32)">
+<suite source="C:\Users\Gérard\Desktop\Workspaces\eclipse_2019\RobotProject1\test\TestSuite1.robot" id="s1" name="TestSuite1">
+<test id="s1-t1" name="MyFirstTest">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World...</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.444" level="INFO">Hello World...</msg>
+<status status="PASS" endtime="20191110 11:43:58.444" starttime="20191110 11:43:58.444"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.444" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" endtime="20191110 11:43:58.444" starttime="20191110 11:43:58.444"></status>
+</kw>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" endtime="20191110 11:43:58.444" critical="yes" starttime="20191110 11:43:58.444"></status>
+</test>
+<test id="s1-t2" name="MySecondTest">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside 2nd test</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.444" level="INFO">I am inside 2nd test</msg>
+<status status="PASS" endtime="20191110 11:43:58.444" starttime="20191110 11:43:58.444"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.444" level="INFO">Set tag 'regression1'.</msg>
+<status status="PASS" endtime="20191110 11:43:58.444" starttime="20191110 11:43:58.444"></status>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.444" level="INFO">Removed tag 'regression1'.</msg>
+<status status="PASS" endtime="20191110 11:43:58.444" starttime="20191110 11:43:58.444"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.444" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" endtime="20191110 11:43:58.444" starttime="20191110 11:43:58.444"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" endtime="20191110 11:43:58.444" critical="yes" starttime="20191110 11:43:58.444"></status>
+</test>
+<test id="s1-t3" name="MyThirdTest">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am insid 3rd test</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.460" level="INFO">I am insid 3rd test</msg>
+<status status="PASS" endtime="20191110 11:43:58.460" starttime="20191110 11:43:58.460"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.460" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" endtime="20191110 11:43:58.460" starttime="20191110 11:43:58.460"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" endtime="20191110 11:43:58.460" critical="yes" starttime="20191110 11:43:58.460"></status>
+</test>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Teardown</arg>
+</arguments>
+<msg timestamp="20191110 11:43:58.460" level="INFO">I am inside Test Suite Teardown</msg>
+<status status="PASS" endtime="20191110 11:43:58.460" starttime="20191110 11:43:58.460"></status>
+</kw>
+<status status="PASS" endtime="20191110 11:43:58.460" starttime="20191110 11:43:58.210"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">sanity</stat>
+<stat fail="0" pass="1">smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="TestSuite1" pass="3">TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20191110 11:43:58.210" level="ERROR">Error in file 'C:\Users\Gérard\Desktop\Workspaces\eclipse_2019\RobotProject1\test\TestSuite1.robot': Setting 'Suite Setup' used multiple times.</msg>
+</errors>
+</robot>
