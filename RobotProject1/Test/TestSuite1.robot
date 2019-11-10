@@ -20,8 +20,10 @@ MySecondTest
     
 MyThirdTest
     Log    I am insid 3rd test
-    
 
+    
+MyFourthTest
+    Log    I am insid 4rd test
     
 # FirstSeleniumTest
         # Open Browser    ${URL}    chrome
